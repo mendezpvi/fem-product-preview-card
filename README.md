@@ -39,7 +39,7 @@ Users should be able to:
 
 [Live site URL here](https://mendezpvi.github.io/fem-product-preview-card/) 👈
 
-<!-- [Solution on Frontend Mentor]() 👈 -->
+[Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-using-flexbox-92CltPyzq-) 👈
 
 
 ## Built with :hammer_and_pick:
