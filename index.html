@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="icon" href="./assets/images/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+
+  <main>
+    <h1 class="sr-only">Product preview card component</h1>
+
+    <article class="product-card">
+      <picture class="product-card__picture">
+        <source media="(min-width: 560px)" srcset="./assets/images/image-product-desktop.jpg">
+        <img src="./assets/images/image-product-mobile.jpg" alt="Chanel N°5 perfume bottle on a desktop view.">
+      </picture>
+
+      <section class="product-card__details">
+        <span class="product-card__category fs-12 fw-500">PERFUME</span>
+        <h2 class="product-card__title fs-32 fw-700">Gabrielle Essence Eau De Parfum</h2>
+        <p class="product-card__description fs-14 fw-500">A floral, solar and voluptuous interpretation composed by
+          Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <div class="product-card__pricing">
+          <span class="product-card__price fs-32 fw-700">$149.99</span>
+          <del class="product-card__original-price fs-13 fw-500">$169.99</del>
+        </div>
+        <button type="button" class="product-card__button fs-14 fw-700">
+          <img src="./assets/images/icon-cart.svg" alt="" aria-hidden="true">
+          <span>Add to Cart</span>
+        </button>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p class="attribution fs-12 fw-500">Challenge by <a href="https://www.frontendmentor.io/challenges" target="_blank"
+        rel="noopener noreferrer" class="attribution__link fw-700">Frontend Mentor</a> - Coded by <a
+        href="https://github.com/mendezpvi/fem-product-preview-card" target="_blank" rel="noopener noreferrer"
+        class="attribution__link fw-700">VM</a></p>
+  </footer>
+
+</body>
+
+</html>
